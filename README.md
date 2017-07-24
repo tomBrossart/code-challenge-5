@@ -22,9 +22,9 @@ Angualr, MongoDB, Express, NodeJS
 [X] broad folder structure and psuedo code
 [X] copy in vendor files
 [X] create schema
-[ ] connect db in server.js and create express.static -- basic router in server.js
-[ ] require in packages and files to server.js
-[ ] create angular controller in client.js with basic get/put stubs
+[X] connect db in server.js and create express.static -- basic router in server.js
+[X] require in packages and files to server.js
+[X] create angular controller in client.js with basic get/post stubs
 [ ] create HTML to connect controller and get/put stubs
 [ ] src/link all html files and verify npm installs
 [ ] create get/put responses in server.js
