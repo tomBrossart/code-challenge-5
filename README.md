@@ -25,7 +25,7 @@ Angualr, MongoDB, Express, NodeJS
 [X] connect db in server.js and create express.static -- basic router in server.js
 [X] require in packages and files to server.js
 [X] create angular controller in client.js with basic get/post stubs
-[ ] create HTML to connect controller and get/put stubs
-[ ] src/link all html files and verify npm installs
-[ ] create get/put responses in server.js
-[ ] test response
+[X] create HTML to connect controller and get/put stubs
+[X] src/link all html files and verify npm installs
+[X] create get/put responses in server.js
+[X] test response

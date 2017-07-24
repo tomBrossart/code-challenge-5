@@ -12,14 +12,15 @@ myApp.controller('MessageController', function($http, $scope) {
 
   $scope.addMessage = function(input) {
     $http.post('/message', input).then(function(response) {
-      console.log(response.data);
+      console.log("response", response.data);
     });
     getMessages();
   };
 
   function getMessages() {
     $http.get('/message').then(function(response){
-      console.log(response.data);
+      console.log("get messages firing", response.data);
+      console.log(response);
     $scope.dbMessages = response.data;
   });
 }

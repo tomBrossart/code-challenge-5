@@ -15,7 +15,10 @@
         <input ng-model="post.message" type="text" name="message" placeholder="message" value="">
         <button ng-click="addMessage(post)" type="button" name="button">Submit</button>
       </form>
-
+      <div class="well well-md" ng-repeat="message in dbMessages">
+        <p> {{message.name}}</p>
+        <p> {{message.message}}</p>
+      </div>
     </div>
 
   </body>
