@@ -19,9 +19,9 @@ Angualr, MongoDB, Express, NodeJS
 
 ## TASKS
 [X] init repo/npm and create server.js
-[ ] broad folder structure and psuedo code
-[ ] copy in vendor files
-[ ] create schema
+[X] broad folder structure and psuedo code
+[X] copy in vendor files
+[X] create schema
 [ ] connect db in server.js and create express.static -- basic router in server.js
 [ ] require in packages and files to server.js
 [ ] create angular controller in client.js with basic get/put stubs
