@@ -12,10 +12,10 @@
     <div class="row" ng-controller="MessageController">
       <form class="form" action="index.html" method="post">
         <input ng-model="post.name" type="text" name="name" placeholder="name" value="">
-        <input ng-model="post.message" type="text" name="message" placeholder="message" value="">
+        <input ng-model="post.message" type="message" name="message" placeholder="message" value="">
         <button ng-click="addMessage(post)" type="button" name="button">Submit</button>
       </form>
-      <div class="well well-md" ng-repeat="message in dbMessages">
+      <div class="well well-md col-md-2" ng-repeat="message in dbMessages">
         <p> {{message.name}}</p>
         <p> {{message.message}}</p>
       </div>
