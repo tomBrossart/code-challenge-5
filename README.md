@@ -1,6 +1,7 @@
-# code-challenge-5
+# Overview
+Built a message board application to practice using Angular and MongoDB, and to practice quickly spinning up/completing a project in a challenge environment. 
 
-## OVERVIEW
+## Instructions
 The message board application you are going to build has the following requirements:
 
 MUST use Angular and MongoDB
